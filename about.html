@@ -3,83 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/estiloDOM.css">
     <title>Ana R La Spina - Sitio Oficial de la Artista</title>
-    </head>
+</head>
 <body>
-<header>
-
-
-    <div class="menu">
-        <img id=top src="imgs/logo.png" onclick="location.href='#';">
-        <h5>Pintura Arte Diseño Restauraciones Reciclaje </h5>
+<div class=wrapper>
+  <header class="header"><img id=top src="imgs/logo.png" onclick="location.href='index.html';">
+    <div class="ad">
+      <a title="Visita mi Página de Facebook" href="https://www.facebook.com/arte.mutante"><i class="fab fa-facebook-square"></i></a>
+      <a title="Visita mi Instagram" href="https://instagram.com/ana_r_laspina"><i class="fab fa-instagram"></i></a>
     </div>
+  </header>
+    <ul class="navigation">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Perfil</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  
+<article class="main">
+        <p><h3>Ana Rosalía La Spina</h3><i>Acerca de mi</i></p>
+        
+        <p>Nací el 28/11/1984 en Buenos Aires, Argentina.<br>Actualmente vivo en la Ciudad de BsAs.<br>Tengo ganas de participar de algún proyecto artístico nuevo.</p>
+        <img class="perfil" src="imgs/perfil.png">
+</article>
 
-</header>
-
-<input type='button' class='btn btn-menu' value='Inicio'onclick="location.href='index';"/>
-
-    <input type='button' class='btn btn-menu' value='Perfil'onclick="location.href='#"/>
-<input type='button' class='btn btn-menu' value='Contacto' onclick="location.href='#contacto';"/>
-<input type='button' class='btn btn-menu' value='Mi Instagram' onclick="location.href='https://www.instagram.com/ana_r_laspina/';"/>
-
-
-<div class=ficha>
-  <p><h3>Ana Rosalía La Spina</h3><i>Acerca de mi</i></p>
-  <div class="row">
-
-    <div class="column2">
-      <img src="imgs/perfil.png">
-      <p>Nací el 28/11/1984 en Buenos Aires, Argentina.<br>Actualmente vivo en la Ciudad de BsAs.<br>Tengo ganas de participar de algún proyecto artístico nuevo.</p>
-
-    </div>
-
-    <div class="column">
-      <p><b>Mis Conocimientos</b>
-        <ul>
+<aside class="aside aside-1" role="complementary">
+          <p><b>MIS CONOCIMIENTOS</b></p>
+          <ul>
           <li>Pintura</li>
-          <li>Dibujo</li>
-          <li>Tecnicas de Carbonilla y Lápiz, sombreados y color</li>
+          <li>Dibujo (Tecnicas de Carbonilla y Lápiz, sombreados)</li>
           <li>Oleo</li>
           <li>Acrílico</li>
           <li>Tecnicas simple de grabado con matriz</li>
           <li>Aerografía</li>
           <li>Artesanías con Origami</li>
-        </ul>
-      </p>
-       <p><b>Mis Estudios</b>
-          <ul>
-            <li>Taller de Dibujo</li>
-            <li>Taller de Porcelana fría</li>
-            <li>Taller de Aerografia</li>
-            <li>Taller de Decoupage</li>
-            <li>#Taller de Pintura</li>
-            <li>Seminario de Street Art(murales)</li>
-            <li>#Carrera de Artes Visuales con Orientación en Pintura(en curso)</li>
           </ul>
-          </p>     
-    </div>
-
-    <div class="column3">
-      <p><i>Acercarse al arte,<br>
-      <i>es animarse a sentir</i></p>
-    </div>
-  </div>
+          
+</aside>
+<aside class="aside aside-2" role="comp2">
+          <p><b>MIS ESTUDIOS</b></p> 
+          <ul>
+          <li>Taller de Dibujo</li>
+          <li>Taller de Porcelana fría</li>
+          <li>Taller de Aerografia</li>
+          <li>Taller de Decoupage</li>
+          <li>#Taller de Pintura</li>
+          <li>Seminario de Street Art(murales)</li>
+          <li>#Carrera de Artes Visuales con Orientación en Pintura(en curso)</li>
+          </ul>
+              
+ </aside>
 </div>
+<footer class="flex-rw">
+  
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">Acerca de Ana</h4></li>
+    <li><a href='/galeriacuadros.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">OBRAS</a></li>
+    <li><a href='/galeriadibujos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">DIBUJOS</a></li>
+    <li><a href='/galeriartesanias.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">ARTESANIAS</a></li>
+  </ul>
+  <ul class="footer-list-top">
+    <li>
+      <h4 class="footer-list-header">Aca quiero poner un logo lindo</h4></li>
+  </ul>
+  <ul class="footer-list-top">
+    <li id='help'>
+      <h4 class="footer-list-header">mapa</h4></li>
+    <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">Inicio</a></li>
+    <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Perfil</a></li>
+  </ul>
+  <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+      CONECTATE <span class="footer-social-small">con el</span>ARTE
+      </span>
+     
+  </section>
+  <section class="footer-bottom-section flex-rw">
+<div class="footer-bottom-wrapper">   
 
-
-<div>
-<footer>
-
-    <img id=contacto src="imgs/logo.png" onclick="location.href='#top';">
-    <h5>Pintura Arte Diseño Restauraciones Reciclaje </h5>
-    <input type='button' class='btn btn-menu' value='@'onclick="location.href='mailto:anarlaspina@gmail.com';"/>
-    <input type='button' class='btn btn-menu' value='Perfil'onclick="location.href='#'"/>
-<input type='button' class='btn btn-menu' value='11 6724 4191'/>
-<input type='button' class='btn btn-menu' value='Mi Instagram' onclick="location.href='https://www.instagram.com/ana_r_laspina/';"/>
+    </div>
+    <div class="footer-bottom-wrapper">
+       <span class="footer-social-overlap footer-social-icons-wrapper">
+      <a href="https://www.pinterest.com/luna13/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fab fa-pinterest"></i></a>
+      <a href="https://www.facebook.com/arte.mutante" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
+      <a href="http://instagram.com/ana_r_laspina" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fab fa-instagram"></i></a>
+      </span>
    
+      </div>
+  </section>
 </footer>
-
-</div>
 </body>
 </html>
