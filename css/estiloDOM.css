@@ -10,10 +10,8 @@ body {
     font: 11px "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
+    margin: 0;
+
 
 }
 ul {
@@ -89,39 +87,30 @@ a {
     width: 100%;
     height: auto;
     background: #fff;
- 
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap-reverse;
-  padding: 0 5px;
-  width: 95%;
-  margin-top: 3%;
-  margin-left: 2%;
-  margin-bottom: 2%;
-  justify-content: center;
-  height: 100%;
+width: auto;
 }
 
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
-  max-width: 25%;
+
   padding: 0 2px;
 }
 
 
 .column img {
   margin-top: 4px;
-  vertical-align: middle;
+
   border: 5px solid black;
 }
-/*fin galeria*/
-/*footer y creditos */  
+
 
 .wrapper {
+  height: 720px;
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
@@ -133,6 +122,8 @@ a {
   flex: 1  100%;
     }
 }
+/*fin galeria*/
+/*footer y creditos */  
 .main {
   background: #c3dbc5;
 }
@@ -182,13 +173,7 @@ a {
 }
 @media all and (min-width: 600px) {
   .aside { flex: 1 0 0; }
-}
 
-@media (max-width: 350px) {
-    img {
-        width:100%;
-        height: auto;
-    }
 }
 
 @media all and (max-width: 360px) {
@@ -403,24 +388,41 @@ aside p {
 .column-1 img, .column-2 img, .column-3 img, .column-4 img{
    margin-top: 4px;
   border: 5px solid black;
-  width: 250px;
-  margin-left: 5px;
+  width: 200px;
+  height: 300px;
+  margin-left: 10px;
   background: white;
 }
 
 .botonera {
- display: inline-flex;    
+height: 100%;
+padding: 0;
+margin: 0;
+display: -webkit-box;
+ display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.novedadesindex{
+  font-size: 2.5em;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 15px;
+  text-align: center;
+
+}
+.fa-plus{
+  color: #f4e241;
+  text-shadow: 2px 2px black;
+}
 @media only all and (max-width: 320px) {
   .botonera {
-    font-size: 1.2em
+    font-size: 1.2em;
   }
 }
 
 
-  @media all and (max-width: 1200px) {
-      .botonera{
-        flex-direction: column; 
-        }
-    }
