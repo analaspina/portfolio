@@ -1,83 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
-    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/estiloDOM.css">
-    <title>Ana R La Spina - Sitio Oficial de la Artista</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Ana Rosalia La Spina - Arte</title>
 </head>
 <body>
-<div class=wrapper>
-  <header class="header"><img id=top src="imgs/logo.png" onclick="location.href='index.html';">
-    <div class="ad">
-        <a href="http://instagram.com/ar_laspina" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fab fa-instagram"></i></a>
-      <a title="Visita mi Página de Facebook" href="https://www.facebook.com/arlaspina"><i class="fab fa-facebook-square"></i></a>
+<div class="container-fluid header">
+  <div class="row">
+    <div class="col-9"><span style="font-size: 3em;">
+      <img id=INICIO src="imgs/logo.png" class="img-fluid" onclick="location.href='index.html';"> 
+        
+        <a href="http://instagram.com/ar_la_spina"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/arlaspina"><i class="fab fa-facebook-square"></i></a> 
+        </span>
     </div>
-  </header>
-    <ul class="navigation">
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="about.html">Perfil</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
+    <div class="col text-right">
+        <span style="font-size: 5em;">
+          <a href="index.html"><i class="fas fa-home" alt="Inicio"></i></a>
+          <a href="about.html"><i class="fas fa-address-card" alt="Profile"></i></a>
+          <a href="#contacto"><i class="fas fa-mobile-alt" alt="Contact me"></i></a>
+        </span>
+    </div>
+  </div>
+</div>
 
 <section>
     <aside><p><a href="index.html">Galería</a>/Artesanias</p></aside>
-    <div class="row">
-    <div class="column">
-        <img src="imgs/full/a1.jpeg" class="responsive">
+<div class="container-fluid listagal">
+  <div class="row">
+    <div class="col">
+        <img src="imgs/full/a1.jpeg" class="img-fluid galeria">
     </div>
-    <div class="column">
-        <img src="imgs/full/a2.jpeg" class="responsive">
-     
+    <div class="col">
+        <img src="imgs/full/a2.jpeg" class="img-fluid galeria"> 
     </div>
-    </div>
+  </div>
+</div>
   <aside><p><a href="index.html">Galería</a>/Artesanías</p></aside>
 </section>
 
-<footer class="flex-rw">
-  
-  <ul class="footer-list-top">
-    <li><h4 class="footer-list-header">Galeria: Categorias</h4></li>
-    <li><a href='dibujos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">DIBUJOS</a></li>
-    <li><a href='artesanias.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">ARTESANIAS</a></li>
-    <li><a href='murales.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">MURALES</a></li>
-        <li><a href='obras.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">OBRAS</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">        <img src="imgs/full/m26.jpg" class="responsive" style="border: 5px solid #000"></h4></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li id='contacto'>
-      <h4 class="footer-list-header">Contacto</h4></li>
-    <li><h3>11 6724-4191</h3></li>
-    <li><h3><a href='mailto:anarlaspina@gmail.com'>o por mail en @gmail</a></h3></li>
-  </ul>
-  <section class="footer-social-section flex-rw">
-      <span class="footer-social-overlap footer-social-connect">
-      CONECTATE <span class="footer-social-small">con el</span>ARTE
-      </span>
-     
-  </section>
-  <section class="footer-bottom-section flex-rw">
-<div class="footer-bottom-wrapper">   
-
+<div class="container-fluid pt-5 text-center">
+  <div class="row">
+    <div class="col">
+        <img src="imgs/full/d1.jpg"  class="img-fluid rounded h-50">
+        <p><a href="dibujos.html" class="text-light bg-dark h2">Dibujos</a></p>
     </div>
-    <div class="footer-bottom-wrapper">
-       <span class="footer-social-overlap footer-social-icons-wrapper">
-       <a href="http://instagram.com/ar_la_spina" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.pinterest.com/luna13/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fab fa-pinterest"></i></a>
-      <a href="https://www.facebook.com/arlaspina" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fab fa-facebook"></i></a>
-     
-      </span>
-   
-      </div>
-  </section>
-</footer>
-</div> <!-- fin de wrapper -->
+        <div class="col">
+        <img src="imgs/a1.png" class="img-fluid rounded h-50">
+        <p><a href="artesanias.html" class="text-light bg-dark h2">Artesanías</a></p>
+    </div>
+    <div class="col">
+        <img src="imgs/m1.jpg" class="img-fluid rounded h-50">
+        <p><a href="murales.html" class="text-light bg-dark h2">Murales</a></p>
+    </div>
+    <div class="col">
+        <img src="imgs/o1.png" class="img-fluid rounded h-50">
+        <p><a href="obras.html" class="text-light bg-dark h2"><i class="fas fa-plus"></i>Obras</a></p>
+    </div>
+</div>
+</div>
 
+<div class="container-fluid footer">
+  <div class="row">
+    <div class=col>
+      <ul class="list-unstyled">
+        <li><a href='index.html#INICIO'>INICIO</a></li>
+        <li><a href='about.html'>PERFIL</a></li>
+      </ul>
+      <ul class="list-unstyled">
+        <li><p class="h4"><mark>Galeria:</mark>Categorias</p></li>
+        <li><a href='dibujos.html'>DIBUJOS</a></li>
+        <li><a href='artesanias.html'>ARTESANIAS</a></li>
+        <li><a href='murales.html'>MURALES</a></li>
+        <li><i class="fas fa-plus"></i><a href='obras.html'> OBRAS</a></li>
+      </ul>
+    </div>
+    <div class="col">
+        <img src="imgs/full/m26.jpg" class="img-fluid" style="border: 5px solid #000">
+    </div>
+    <div class="col text-right">
+      <h1>Contacto</h1>
+      <h2><mark>11 6724-4191</mark></h2>
+      <h3><a href='mailto:anarlaspina@gmail.com'>o por mail en @gmail</a></h3>
+
+
+      <p id="contacto">CONECTATE con el ARTE</p>
+    
+
+      <span style="font-size: 2em;">
+      <a href="http://instagram.com/ar_la_spina"><i class="fab fa-instagram px-md-2"></i></a>
+      <a href="https://www.pinterest.com/luna13/"><i class="fab fa-pinterest px-md-2"></i></a>
+      <a href="https://www.facebook.com/arlaspina"><i class="fab fa-facebook px-md-2"></i></a>
+      </span>
+      
+    </div>
+  </div>
+</div>
 </body>
 </html>

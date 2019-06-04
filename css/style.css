@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+	color: #809bce;
+}
+
+a{
+	color: #7ebdc3;
+}
+
+.footer{
+	background-color: #51a3a3;
+	color: #75485e;
+	font-size: 1.5em;
+}
+
+.footer a{
+	color: #4effef;
+}
+
+.footer a:hover{
+	color: #000000;
+}
+
+.header{
+	background-color: #809bce;
+	color: #000000;
+}
+
+.header a{
+	color: #4effef;
+}
+
+.header a:hover{
+	color: #000000;
+}
+
+.perfil {
+	background-color: #f0d3f7;
+	color: #000000;
+}
+.conocimientos {
+	background-color: #b98ea7;
+	color: #000000;
+}
+.estudios {
+	background-color: #8da7be;
+	color: #000000;
+}
+
+.listagal {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	background-color: #ffffff;
+}
+.galeria {
+	border: 5px solid black;
+}
